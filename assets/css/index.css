@@ -71,3 +71,32 @@ body nav button {
     border: none;
     cursor: pointer;
 }
+
+main .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+}
+
+main .about span {
+    color: var(--color-red-primary);
+    font-weight: var(--font-weight-primary);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .about h1 {
+    color: var(--color-black-title);
+    font-weight: var(--font-weight-primary);
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+main .about p {
+    color: var(--color-paragraphy);
+    font-weight: var(--font-weight-ternary);
+    max-width: 60vw;
+}
