@@ -1,4 +1,4 @@
-### Optimus Tech
+### 🚀 Optimus Tech
 Projeto para portfólio, onde foi desenvolvido uma página empresarial de contratação de novos talentos.
 
 - Visite o site: [Github Pages](https://filipirafael.github.io/optimusTech/)
