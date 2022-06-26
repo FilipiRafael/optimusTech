@@ -135,3 +135,39 @@ main .measurements p {
     margin-top: 0.5rem;
     width: 90%;
 }
+
+main .jobs-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+}
+
+main .jobs-header span {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: var(--font-weight-secondary);
+    color: var(--color-red-primary);
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 1rem;
+}
+
+main .jobs-header h2 {
+    font-size: 2rem;
+    color: var(--color-black-title);
+    font-weight: var(--font-weight-primary);
+    margin-bottom: 1.2rem;
+}
+
+main .jobs-header p {
+    font-weight: var(--font-weight-ternary);
+    font-size: 1.2rem;
+    color: var(--color-paragraphy);
+    margin-bottom: 4rem;
+}
+
+main .jobs-header img {
+    object-fit: cover;
+}
