@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--font-family);
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
 }
 
 body nav {
@@ -227,5 +227,124 @@ main .jobs .informations {
 main .jobs .informations p {
     color: var(--color-paragraphy);
     font-size: 1rem;
+    font-weight: var(--font-weight-ternary);
+}
+
+main .testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .testimonial .container__testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(196, 25, 25, 0.03);
+    margin-bottom: 6rem;
+    width: 80%;
+    padding: 4rem;
+    text-align: center;
+}
+
+main .testimonial p {
+    font-size: 0.8rem;
+    font-weight: var(--font-weight-primary);
+    color: var(--color-red-primary);
+    margin-bottom: 1rem;
+}
+
+main .testimonial h2 {
+    font-size: 2rem;
+    color: var(--color-black-title);
+    font-weight: var(--font-weight-secondary);
+    margin-bottom: 2rem;
+}
+
+main .testimonial img {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+main .testmonial h4 {
+    font-size: 1rem;
+    font-weight: var(--font-weight-ternary);
+    color: var(--color-black-title);
+    margin-bottom: 0.25rem;
+}
+
+main .testimonial span {
+    font-size: 0.8rem;
+    color: var(--color-paragraphy);
+    font-weight: var(--font-weight-ternary);
+}
+
+main .newsletter {
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 21rem;
+}
+
+main .newsletter .container__newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .newsletter h2 {
+    font-size: 2rem;
+    color: var(--color-black-title);
+    font-weight: var(--font-weight-secondary);
+    margin-bottom: 1.2rem;
+}
+
+main .newsletter span {
+    font-size: 1.2rem;
+    color: var(--color-paragraphy);
+    font-weight: var(--font-weight-ternary);
+    margin-bottom: 2.2rem;
+}
+
+main .newsletter .joinNewsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+main .joinNewsletter input {
+    padding: 12px 15px;
+    background-color: #FFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    width: 16rem;
+    margin-right: 1rem;
+    transition: all 0.5s;
+}
+
+main .joinNewsletter button {
+    font-size: 1rem;
+    color: #FFF;
+    font-weight: var(--font-weight-secondary);
+    padding: 0.8rem 1.2rem;
+    background-color: var(--color-red-primary);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    cursor: pointer;
+}
+
+main .joinNewsletter input:hover, main .joinNewsletter input:active {
+    border: 1px solid var(--color-red-primary);
+}
+
+main .newsletter p {
+    font-size: 1rem;
+    color: #98A2B3;
     font-weight: var(--font-weight-ternary);
 }
