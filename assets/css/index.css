@@ -172,3 +172,60 @@ main .jobs-header p {
 main .jobs-header img {
     object-fit: cover;
 }
+
+main .jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .jobs .container-job {
+    margin: 0 auto 4rem auto;
+    width: 50%; 
+}
+
+main .jobs h2 {
+    margin-bottom: 2rem;
+    font-weight: var(--font-weight-secondary);
+    font-size: 1.2rem;
+    color: var(--color-black-title);
+}
+
+main .jobs .jobs-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid #EAECF0;
+    border-radius: 1rem;
+    height: 8.5rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+main .jobs .jobs-card:hover, main .jobs .jobs-card:active {
+    border: 1px solid var(--color-red-primary);
+}
+
+main .jobs .jobs-card h3 {
+    font-weight: var(--font-weight-ternary);
+    color: var(--color-black-title);
+    font-size: 1.1rem;
+}
+
+main .jobs .informations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 40%;
+}
+
+main .jobs .informations p {
+    color: var(--color-paragraphy);
+    font-size: 1rem;
+    font-weight: var(--font-weight-ternary);
+}
