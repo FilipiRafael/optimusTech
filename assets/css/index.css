@@ -427,4 +427,12 @@ main .newsletter p {
         padding: 2rem 6rem;
     }
 
+    main .newsletter .joinNewsletter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
 }
