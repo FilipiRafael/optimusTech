@@ -374,6 +374,7 @@ main .newsletter p {
     main .measurements div {
         width: 100%;
         text-align: left;
+        margin-top: 2rem;
     }
 
     main .jobs-header {
